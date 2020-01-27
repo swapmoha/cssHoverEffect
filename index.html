@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        li {
+            list-style-type: none;
+            display: inline-block;
+        }
+        a {
+            text-decoration: none;
+        }
+        a::before {
+            content: '';
+            position: absolute;
+            top: 30px;
+            width: 0px;
+            height: 2px;
+            border-bottom: 2px solid #4458dc;
+            transition: all 0.4s linear;
+        }
+        a:hover::before {
+             width: 40px;
+                 }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Home</a></li>
+                <li><a href="">Home</a></li>
+                <li><a href="">Home</a></li>
+                <li><a href="">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
